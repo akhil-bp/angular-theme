@@ -1,0 +1,10 @@
+@import '../theme.scss';
+@import '../functions';
+.nav {
+    background-color: var(--navBackground);
+    color: var(--navColor);
+    width: 100%;
+    float: left;
+    padding:20px;
+    text-align: var(--footerAlignment);
+}

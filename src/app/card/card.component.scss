@@ -1,0 +1,38 @@
+@import '../theme.scss';
+@import '../functions';
+// .card {
+//     width: 200px;
+//     height: auto;
+//     border: 1px solid black;
+//     margin: 12px;
+//     padding: 24px;
+//     font-family: $default-font;
+//   }
+  .card {
+    background-color: var(--navBackground);
+    color: var(--navColor);
+    width: 200px;
+    height: auto;
+    border: 1px solid black;
+    font-family: $default-font;
+}
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+    h1 {
+      margin-top: 0;
+    }
+  }
+  
+  button {
+    background-color: var(--buttonBackground);
+    color: var(--buttonColor);
+    font-family: $default-font;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px;
+  }
